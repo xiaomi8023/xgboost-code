@@ -5,20 +5,23 @@ by Tingting Wang<sup>1</sup>, Yinju Bian<sup>1</sup>, Yixiao Zhang <sup>1</sup>,
 <sup>1</sup>Institute of Geophysics, China Earthquake Administration, Beijing 100081, China.
 
 Corresponding author affiliation and e-mail:
+
 Yinju Bian
+
 Institute of Geophysics, China Earthquake Administration.
 No.5 South Minzu Unversity Road, Haidian District, Beijing 100081, China
+
 bianyinju@cea-igp.ac.cn
 
 This repository contains the source code to perform prediction and evaluation with example data. 
 
 ## Content
--file folder:source
+- file folder: source
 - Classify_svm.py  
 Python script containing the SVM function to predict earthquake events classes.
 - Classify_xgboost.py  
 Python script containing the XGBoost function to predict earthquake events classes.
--file folder:data 
+- file folder: data 
 - example36.csv  
 This file contains names of each class and 36 features .
 - example201.csv  
