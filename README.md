@@ -1,6 +1,6 @@
 # Classification of Earthquakes, Explosions and Mine Collapses Based on XGBoost Algorithm
 
-by Tingting Wanga<sup>1</sup>, Yinju Biana<sup>1</sup>, Yixiao Zhang a<sup>1</sup>, Xiaolin Houa<sup>1</sup>
+by Tingting Wang<sup>1</sup>, Yinju Bian<sup>1</sup>, Yixiao Zhang <sup>1</sup>, Xiaolin Hou<sup>1</sup>
 
 <sup>1</sup>Institute of Geophysics, China Earthquake Administration, Beijing 100081, China.
 
@@ -10,11 +10,12 @@ Yinju Bian
 This repository contains the source code to perform prediction and evaluation with example data. 
 
 ## Content
+-file folder:source
 - Classify_svm.py  
 Python script containing the SVM function to predict earthquake events classes.
 - Classify_xgboost.py  
 Python script containing the XGBoost function to predict earthquake events classes.
-- data file 
+-file folder:data 
 - example36.csv  
 This file contains names of each class and 36 features .
 - example201.csv  
