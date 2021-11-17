@@ -6,6 +6,9 @@ by Tingting Wang<sup>1</sup>, Yinju Bian<sup>1</sup>, Yixiao Zhang <sup>1</sup>,
 
 Corresponding author affiliation and e-mail:
 Yinju Bian
+Institute of Geophysics, China Earthquake Administration.
+No.5 South Minzu Unversity Road, Haidian District, Beijing 100081, China
+bianyinju@cea-igp.ac.cn
 
 This repository contains the source code to perform prediction and evaluation with example data. 
 
