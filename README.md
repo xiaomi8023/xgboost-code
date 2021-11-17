@@ -23,18 +23,24 @@ Python script containing the SVM function to predict earthquake events classes.
 Python script containing the XGBoost function to predict earthquake events classes.
 - file folder: data 
 - example36.csv  
-This file contains names of each class and 36 features .
+This file contains 36 feature extraction training sets for different types of seismic events;
 - example201.csv  
-This file contains names of each class and 201 features .
+This file contains 201 waveform spectrum training sets for different types of seismic events;
 - svmmodel_36.pkl
-SVM Pre-trained model to predict whether a sample contains 36 feature. 
-- svmmodel_201.pkl
-SVM Pre-trained model to predict whether a sample contains 201 feature. 
-- xgbmodel_36.pkl
-XGBoost Pre-trained model to predict whether a sample contains 36 feature. 
-- xgbmodel_201.pkl
-XGBoost Pre-trained model to predict whether a sample contains 201 feature. 
 
+   SVM Pre-trained model to predict seismic event based on 36 features trainning set.
+
+- svmmodel_201.pkl
+ 
+   SVM Pre-trained model to predict seismic event based on 201 features trainning set.
+- xgbmodel_36.pkl
+ 
+   xgboost Pre-trained model to predict seismic event based on 36 features trainning set.
+
+- xgbmodel_201.pkl
+
+   xgboost Pre-trained model to predict seismic event based on 201 features trainning set.
+   
 ## install  
 The code has been tested using packages of:  
 - Python (version 3.7)
